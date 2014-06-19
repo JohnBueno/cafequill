@@ -17,5 +17,9 @@
 
   ga('create', 'UA-52101222-1', 'quill.com');
   ga('send', 'pageview');
+
+   stLight.options({
+      publisherGA:"UA-52101222-1"
+   });
 </script>
 </head>
