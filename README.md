@@ -16,3 +16,5 @@ cafequill
 * Upload full build to cafe sub directory.
 
 * Update the wp-config.php file at the root of the build to match new db settings.
+
+* Delete sql folder from live build.
