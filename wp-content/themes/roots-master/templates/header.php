@@ -11,7 +11,7 @@
                     </div>
                     <small>Brought to you by</small>&nbsp;
                      <a href="http://quill.com">
-                     <img class="logo-sm" src="<? bloginfo('template_url'); ?>/assets/img/logo-quill-sm.png"/>
+                     <img class="logo-sm" src="<?php bloginfo('template_url'); ?>/assets/img/logo-quill-sm.png"/>
                     </a>
                 </div>
             </div>
@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-lg-12 inner">
                     <a class="brand" href="<?php echo home_url('/') ?>">
-                        <img class="logo-lg" src="<? bloginfo('template_url'); ?>/assets/img/logo-quill-lg.png"/>
+                        <img class="logo-lg" src="<?php bloginfo('template_url'); ?>/assets/img/logo-quill-lg.png"/>
                     </a>
                     <h1>Serving fresh perspectives and fueling your day.</h1>
                     <nav class="nav-main" role="navigation">

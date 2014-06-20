@@ -8,6 +8,6 @@
     <div class="entry-summary">
         <?php the_post_thumbnail('post', array('class' => 'img-responsive')); ?> 
         <?php the_excerpt(); ?>
-        <a class="btn btn-primary read-more" href="<? the_permalink(); ?>">Read More</a>
+        <a class="btn btn-primary read-more" href="<?php the_permalink(); ?>">Read More</a>
     </div>
 </article>

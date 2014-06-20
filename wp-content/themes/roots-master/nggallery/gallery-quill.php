@@ -28,7 +28,7 @@ Follow variables are useable :
 				<?php if ( !$image->hidden ) { ?>
 				    <img class="img-responsive" title="<?php echo $image->alttext ?>" alt="<?php echo $image->alttext ?>" src="<?php echo $image->thumbnailURL ?>" <?php echo $image->size ?> />
 				<?php } ?>
-                <? echo($image->description); ?>
+                <?php echo($image->description); ?>
 			</a>
 		</div>
 	</div>

@@ -33,7 +33,7 @@
                 <!-- put all of your normal content stuff here -->
                 <div id="message">
                     <a href="top">
-                        <img src="<? bloginfo('template_url'); ?>/assets/img/to-top.png" alt="" class="img-responsive">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/to-top.png" alt="" class="img-responsive">
                     </a>
                 </div>
             </div>
