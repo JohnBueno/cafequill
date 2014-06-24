@@ -17,8 +17,8 @@
             <a href="http://<?php the_field('rss'); ?>"><i class="fa fa-rss-square"></i></a>
         <?php endif; ?>
 
-        <?php if(get_field('google')): ?>
-            <a href="http://<?php the_field('google'); ?>"><i class="fa fa-google-plus-square"></i></a>
+        <?php if(get_field('google_plus')): ?>
+            <a href="http://<?php the_field('google_plus'); ?>"><i class="fa fa-google-plus-square"></i></a>
         <?php endif; ?>
 
         <?php if(get_field('pinterest')): ?>
