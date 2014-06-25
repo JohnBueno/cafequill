@@ -5,4 +5,4 @@
 <span>
     <?php echo get_the_category_list( ' ', '', $post->id ); ?>
 </span>
-<span><?php comments_number(); ?> </span>
+<span><?php // comments_number(); ?> </span>
