@@ -13,7 +13,7 @@
 
     <?php if ($wp_query->max_num_pages > 1) : ?>
         <nav class="post-nav">
-            <?
+            <?php
                 echo paginate_links( array(
                     'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
                     'format' => '?paged=%#%',
