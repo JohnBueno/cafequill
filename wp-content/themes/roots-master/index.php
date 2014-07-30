@@ -13,16 +13,16 @@
 
     <?php if ($wp_query->max_num_pages > 1) : ?>
         <nav class="post-nav">
-            <?php
-                echo paginate_links( array(
-                    'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-                    'format' => '?paged=%#%',
-                    'current' => max( 1, get_query_var('paged') ),
-                    'total' => $wp_query->max_num_pages,
-                    'prev_text'    => __('<i class="fa fa-arrow-circle-left"></i>'),
-                    'next_text'    => __('<i class="fa fa-arrow-circle-right"></i>'),
-                ) );
-            ?>
+            
+            <?php if ($wp_query->max_num_pages > 1) : ?>
+              <nav class="post-nav">
+                <ul class="pager">
+                  <li class="previous"><?php next_posts_link(__('<i class="fa fa-arrow-circle-left"></i>', 'roots')); ?></li>
+                  <li class="next"><?php previous_posts_link(__('<i class="fa fa-arrow-circle-right"></i>', 'roots')); ?></li>
+                </ul>
+              </nav>
+            <?php endif; ?>
+    
         </nav>
     <?php endif; ?>
 </div>
